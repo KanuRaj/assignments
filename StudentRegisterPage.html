@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration Page</title>
+  </head>
+  <body style="background: #d8d8d8">
+    <h1>Student Registration</h1>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Enter Your Name" required />
+      <br />
+      <br />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="male" id="male" required />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="female" id="female" required />
+      <br />
+      <br />
+      <input type="number" name="age" placeholder="Age" required />
+      <br />
+      <br />
+      <input type="tel" name="number" placeholder="Phone number" required />
+      <br />
+      <br />
+      <select name="stream" required>
+        <option value="">-- Select stream --</option>
+        <option value="science">Science</option>
+        <option value="commerce">Commerce</option>
+        <option value="arts">Arts</option>
+      </select>
+      <br />
+      <br />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <br />
+      <br />
+      <input
+        type="number"
+        name="marksIn10"
+        placeholder="Marks in 10th"
+        required
+      />
+      <br />
+      <br />
+      <input
+        accept="image/*"
+        type="file"
+        name="marksheet"
+        placeholder="Upload 10th's marksheet"
+        required
+      />
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
